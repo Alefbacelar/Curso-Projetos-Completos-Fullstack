@@ -9,7 +9,7 @@ document.Write(" Bem vindo " + nome);
 document.Write("<img src='https://sujeitoprogramador.com/steve.png' />");
  */
 
-var area = document.getElementById("area");
+/* var area = document.getElementById("area");
 
 function entrar() {
   var nome = prompt("Digite seu nome");
@@ -48,3 +48,4 @@ function aluno(nome, curso){
 
   console.log(mensagem)
 }
+ */
