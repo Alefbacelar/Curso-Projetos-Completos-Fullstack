@@ -23,6 +23,7 @@ function entrar() {
     let botaoSair = document.createElement("button")
     botaoSair.innerText = "Sair da conta"
     botaoSair.onclick = sair
+
     area.appendChild(botaoSair)
   }
 }
@@ -30,4 +31,20 @@ function entrar() {
 function sair(){
   alert('Até mais!')
   area.innerHTML= "Você saiu!"
+}
+
+function mediaAluno(nota1, nota2){
+  var media = (nota1 + nota2) /2;
+
+  if(media >=7 ){
+    console.log("Aluno Aprovado com a media" + media)
+  }else if(media < 7){
+    console.log("Aluno Reprovado com a media" + media)
+  }
+}
+
+function aluno(nome, curso){
+  var mensagem = "Seja bem vindo" + nome + "Ao curso de" + curso;
+
+  console.log(mensagem)
 }
